@@ -10,12 +10,12 @@ Prerequisites:
   - `docker` group created.
   - Our user added to `docker` group.
 
-1 - Clone this repository
+1 - Clone this repository and access it:
 ```
-git clone git@github.com:lucasvazq/test_flask_mongoengine.git
+git clone git@github.com:lucasvazq/test_flask_mongoengine.git && cd test_flask_mongoengine
 ```
 
-2 - Run the flask app
+2 - Run the containers:
 ```sh
 docker-compose build --no-cache && docker-compose up
 ```
