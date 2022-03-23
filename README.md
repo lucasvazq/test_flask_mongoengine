@@ -1,6 +1,6 @@
 # Issue with `flask_mongoengine`
 
-Related to issue: ...
+Trace it at: ...
 
 ## Below are some simple steps to reproduce this problem.
 
@@ -12,7 +12,7 @@ Prerequisites:
 
 1 - Clone this repository
 ```
-git clone git@github.com/lucasvazq/test_flask_mongoengine.git
+git clone git@github.com:lucasvazq/test_flask_mongoengine.git
 ```
 
 2 - Run the flask app
@@ -20,6 +20,6 @@ git clone git@github.com/lucasvazq/test_flask_mongoengine.git
 docker-compose build --no-cache && docker-compose up
 ```
 
-3 - Test:
+3 - Try to access to:
   - [localhost:5000/test_flask_pymongo/](localhost:5000/test_flask_pymongo/) ✔️
   - [localhost:5000/test_flask_mongoengine/](localhost:5000/test_flask_mongoengine/) ❌
